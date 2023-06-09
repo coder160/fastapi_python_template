@@ -17,4 +17,4 @@ def read_item(item_id: int, q: Union[str, None] = None):
 
 
 if __name__ == "__main__":
-    _server.run(_app, host="localhost", port=9028)
+    _server.run(_app, host="localhost", port=8080)
